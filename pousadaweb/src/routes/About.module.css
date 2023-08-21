@@ -1,0 +1,102 @@
+.tamanhoMaxContainer {
+    max-width: 1024px;
+    margin: auto
+}
+
+h3 {
+    color: lightseagreen;
+}
+
+.secaoContainer {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.secaoContainer h2 {
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+img {
+    width: 100%;
+}
+
+.descricoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.descricao {
+    display: flex;
+    width: 45%;
+    margin: 0 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.descricaoConteudo {
+    flex: 1 1 auto;
+}
+
+.descricaoImg {
+    width: 100px;
+    height: 113px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+.rodapeCopyright {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #3b7863;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+}
+
+.rodape {
+    background-color: #49997d;
+    color: #fff;
+}
+
+.rodape h4 {
+    font-size: 22px;
+}
+
+.rodapeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rodapeInfo {
+    width: 23%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.rodapeLink {
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.rodapeIcone {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.rodapeInfo a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.spanAbout {
+    color: lightseagreen;
+}
